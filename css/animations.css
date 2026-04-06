@@ -1,0 +1,142 @@
+/* ============================================
+   ERBILEATS — Animations & Transitions
+   ============================================ */
+
+/* ── Entrance Animations ── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-30px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@keyframes starFill {
+  0%   { transform: scale(1); }
+  50%  { transform: scale(1.4); color: var(--gold-400); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+/* ── Animation Classes ── */
+.animate-fadeIn    { animation: fadeIn  0.4s ease both; }
+.animate-slideUp   { animation: slideUp 0.5s ease both; }
+.animate-slideDown { animation: slideDown 0.3s ease both; }
+.animate-scaleIn   { animation: scaleIn 0.3s ease both; }
+
+/* Scroll-reveal (applied by JS) */
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.reveal.delay-1 { transition-delay: 0.1s; }
+.reveal.delay-2 { transition-delay: 0.2s; }
+.reveal.delay-3 { transition-delay: 0.3s; }
+.reveal.delay-4 { transition-delay: 0.4s; }
+.reveal.delay-5 { transition-delay: 0.5s; }
+
+/* ── Hero Animations ── */
+.hero__eyebrow  { animation: slideDown 0.6s ease 0.2s both; }
+.hero__title    { animation: slideUp  0.7s ease 0.35s both; }
+.hero__subtitle { animation: slideUp  0.7s ease 0.5s both; }
+.hero__search-wrap { animation: slideUp 0.7s ease 0.6s both; }
+.hero__stats    { animation: slideUp  0.7s ease 0.75s both; }
+
+/* ── Star Animation ── */
+.star-animate { animation: starFill 0.3s ease; }
+
+/* ── Loading Spinner ── */
+.spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid var(--sand-200);
+  border-top-color: var(--color-primary);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+/* ── Page Transition ── */
+.page-enter {
+  animation: slideUp 0.4s ease;
+}
+
+/* ── Pulse for interactive elements ── */
+@keyframes gentle-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(45,106,79,0.4); }
+  50% { box-shadow: 0 0 0 8px rgba(45,106,79,0); }
+}
+.pulse {
+  animation: gentle-pulse 2s infinite;
+}
+
+/* ── Number counter animation ── */
+.count-up {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+/* ── Image lazy load fade-in ── */
+img.lazy { opacity: 0; transition: opacity 0.4s ease; }
+img.lazy.loaded { opacity: 1; }
+
+/* ── Card tilt spring-back ── */
+.venue-card {
+  transition-property: transform, box-shadow, border-color;
+  transition-duration: 0.45s, 0.45s, 0.3s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* ── Premium float animation for hero eyebrow ── */
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-6px); }
+}
+.hero__eyebrow { animation: slideDown 0.6s ease 0.2s both, float-slow 4s ease-in-out 1.5s infinite; }
+
+/* ── Glow pulse for trending badge ── */
+@keyframes glow-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(74, 222, 128, 0.4); }
+  50%       { box-shadow: 0 0 12px 4px rgba(74, 222, 128, 0.2); }
+}
+.venue-card__badge { animation: glow-pulse 2.5s ease-in-out infinite; }
+
+/* ── Category card pop-in ── */
+@keyframes pop-in {
+  0%   { transform: scale(0.92) translateY(8px); opacity: 0; }
+  100% { transform: scale(1) translateY(0);      opacity: 1; }
+}
+.category-card.reveal.visible {
+  animation: pop-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+}
+
