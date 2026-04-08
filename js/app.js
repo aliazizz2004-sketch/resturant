@@ -8,6 +8,7 @@ import { renderBrowse, initBrowse } from './pages/browse.js';
 import { renderVenue, initVenue } from './pages/venue.js';
 import { renderProfile, initProfile } from './pages/profile.js';
 import { renderSettings, initSettings } from './pages/settings.js';
+import { renderMenu, initMenu } from './pages/menu.js';
 
 const app = document.getElementById('app');
 
@@ -84,6 +85,15 @@ function route() {
     setNavbarActive('');
     setNavbarStyle('venue');
     initVenue(id);
+
+  } else if (path.startsWith('menu/')) {
+    const id = path.split('/')[1];
+    const venue = window.__VENUES__?.find(v => v.id === parseInt(id));
+    document.title = venue ? `${venue.nameKu} - Menu` : 'مینیۆ — ErbilEats';
+    content.innerHTML = renderMenu(id);
+    setNavbarActive('');
+    setNavbarStyle('venue'); // Menu shares the same solid top hero style
+    initMenu(id);
 
   } else if (path === 'profile') {
     document.title = 'پڕۆفایل — ErbilEats';

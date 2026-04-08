@@ -1,0 +1,166 @@
+import fs from 'fs';
+import { VENUES } from './js/data/venues.js';
+
+const newVenues = [
+  {
+    id: 16,
+    name: "Samad Restaurant",
+    nameKu: "چێشتخانەی سەمەد",
+    category: "Fine Dining",
+    categorySlug: "finedining",
+    neighborhood: "Empire World",
+    address: "Empire World, Erbil",
+    phone: "+964 750 999 8877",
+    price: "$$$",
+    priceNum: 3,
+    rating: 4.8,
+    reviewCount: 450,
+    isOpen: true,
+    isTrending: true,
+    isFeatured: true,
+    tags: ["Fine Dining", "Iraqi", "Kouzey"],
+    hours: { Mon: "12:00 PM – 11:00 PM", Tue: "12:00 PM – 11:00 PM", Wed: "12:00 PM – 11:00 PM", Thu: "12:00 PM – 12:00 AM", Fri: "12:00 PM – 12:00 AM", Sat: "12:00 PM – 12:00 AM", Sun: "12:00 PM – 11:00 PM" },
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+    images: ["https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80"],
+    description: "One of the most prestigious dining destinations in Erbil, Samad offers the absolute finest in authentic Iraqi and Kurdish cuisine with impeccable service in a luxurious setting.",
+    lat: 36.2000, lng: 44.0100,
+    ratingBreakdown: { 5: 350, 4: 80, 3: 10, 2: 5, 1: 5 },
+    menu: [],
+    reviews: []
+  },
+  {
+    id: 17,
+    name: "Tche Tche Cafe",
+    nameKu: "کافێی چێ چێ",
+    category: "Shisha Lounge",
+    categorySlug: "shisha",
+    neighborhood: "Dream City",
+    address: "Dream City Main Entrance, Erbil",
+    phone: "+964 750 444 5566",
+    price: "$$$",
+    priceNum: 3,
+    rating: 4.5,
+    reviewCount: 320,
+    isOpen: true,
+    isTrending: true,
+    isFeatured: false,
+    tags: ["Shisha", "Desserts", "Outdoor Seating"],
+    hours: { Mon: "10:00 AM – 1:00 AM", Tue: "10:00 AM – 1:00 AM", Wed: "10:00 AM – 1:00 AM", Thu: "10:00 AM – 2:00 AM", Fri: "10:00 AM – 2:00 AM", Sat: "10:00 AM – 2:00 AM", Sun: "10:00 AM – 1:00 AM" },
+    image: "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=800&q=80",
+    images: ["https://images.unsplash.com/photo-1516684732162-798a0062be99?w=800&q=80"],
+    description: "The classic Erbil hangout. Enjoy fantastic cold drinks, amazing desserts, and top-tier shisha right on the lively street front of Dream City.",
+    lat: 36.1855, lng: 44.0410,
+    ratingBreakdown: { 5: 200, 4: 80, 3: 30, 2: 5, 1: 5 },
+    menu: [],
+    reviews: []
+  },
+  {
+    id: 18,
+    name: "Dawa 2 Restaurant",
+    nameKu: "چێشتخانەی داوا ٢",
+    category: "Fine Dining",
+    categorySlug: "finedining",
+    neighborhood: "Bakhtiari",
+    address: "Bakhtiari Main Road, Erbil",
+    phone: "+964 750 777 8899",
+    price: "$$$",
+    priceNum: 3,
+    rating: 4.6,
+    reviewCount: 210,
+    isOpen: true,
+    isTrending: false,
+    isFeatured: false,
+    tags: ["Grill", "Buffet", "Family"],
+    hours: { Mon: "11:00 AM – 11:30 PM", Tue: "11:00 AM – 11:30 PM", Wed: "11:00 AM – 11:30 PM", Thu: "11:00 AM – 12:00 AM", Fri: "11:00 AM – 12:00 AM", Sat: "11:00 AM – 12:00 AM", Sun: "11:00 AM – 11:30 PM" },
+    image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80",
+    images: ["https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80"],
+    description: "An iconic name in Erbil's dining scene, Dawa 2 serves colossal platters of expertly grilled meats, fresh salads, and a renowned open buffet in a gorgeous family-friendly setting.",
+    lat: 36.1965, lng: 44.0200,
+    ratingBreakdown: { 5: 150, 4: 40, 3: 15, 2: 3, 1: 2 },
+    menu: [],
+    reviews: []
+  },
+  {
+    id: 19,
+    name: "Saj Al Reef",
+    nameKu: "ساج ئەلڕیف",
+    category: "Fast Food",
+    categorySlug: "fastfood",
+    neighborhood: "Gulan Street",
+    address: "Gulan Street, Erbil",
+    phone: "+964 750 222 3344",
+    price: "$",
+    priceNum: 1,
+    rating: 4.2,
+    reviewCount: 380,
+    isOpen: true,
+    isTrending: true,
+    isFeatured: false,
+    tags: ["Shawarma", "Saj", "Quick Bites"],
+    hours: { Mon: "11:00 AM – 2:00 AM", Tue: "11:00 AM – 2:00 AM", Wed: "11:00 AM – 2:00 AM", Thu: "11:00 AM – 3:00 AM", Fri: "11:00 AM – 3:00 AM", Sat: "11:00 AM – 3:00 AM", Sun: "11:00 AM – 2:00 AM" },
+    image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    images: ["https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80"],
+    description: "The kings of Saj bread. Saj Al Reef serves mouth-watering chicken and beef shawarma wrapped in freshly baked, thin, crispy Saj bread. A late-night favorite.",
+    lat: 36.2100, lng: 43.9900,
+    ratingBreakdown: { 5: 200, 4: 120, 3: 40, 2: 15, 1: 5 },
+    menu: [],
+    reviews: []
+  },
+  {
+    id: 20,
+    name: "Bêxal Restaurant",
+    nameKu: "چێشتخانەی بێخاڵ",
+    category: "Traditional Kurdish",
+    categorySlug: "traditional",
+    neighborhood: "Peshawa",
+    address: "Peshawa Qazi Street, Erbil",
+    phone: "+964 750 111 5566",
+    price: "$$",
+    priceNum: 2,
+    rating: 4.4,
+    reviewCount: 160,
+    isOpen: true,
+    isTrending: false,
+    isFeatured: false,
+    tags: ["Kurdish", "Fish", "Kebab"],
+    hours: { Mon: "11:00 AM – 11:00 PM", Tue: "11:00 AM – 11:00 PM", Wed: "11:00 AM – 11:00 PM", Thu: "11:00 AM – 11:00 PM", Fri: "11:00 AM – 11:00 PM", Sat: "11:00 AM – 11:00 PM", Sun: "11:00 AM – 11:00 PM" },
+    image: "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
+    images: ["https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80"],
+    description: "Known for the best Masgouf (Iraqi grilled fish) and traditional Kurdish sides. The atmosphere brings the spirit of the famous Bexal waterfalls right into Erbil.",
+    lat: 36.2150, lng: 44.0200,
+    ratingBreakdown: { 5: 100, 4: 40, 3: 15, 2: 3, 1: 2 },
+    menu: [],
+    reviews: []
+  }
+];
+
+const allVenues = [...VENUES, ...newVenues];
+
+let fileContent = fs.readFileSync('./js/data/venues.js', 'utf8');
+// To easily replace, let's just create a new file content
+fileContent = fileContent.replace(/export const VENUES = \[(.|\n)*?\];/g, `export const VENUES = ${JSON.stringify(allVenues, null, 2)};`);
+
+fs.writeFileSync('./js/data/venues.js', fileContent);
+console.log('Updated venues.js');
+
+const locations = allVenues.map(v => ({
+  id: v.id,
+  name: v.name,
+  nameKu: v.nameKu,
+  category: v.category,
+  neighborhood: v.neighborhood,
+  address: v.address,
+  phone: v.phone,
+  rating: v.rating,
+  reviewCount: v.reviewCount,
+  price: v.price,
+  isOpen: v.isOpen,
+  description: v.description,
+  tags: v.tags || [],
+  coords: { lat: v.lat, lng: v.lng },
+  imageURL: v.image || (v.images && v.images[0]) || "",
+  menuURL: `#venue/${v.id}`
+}));
+
+fs.writeFileSync('./map-feature/locations.json', JSON.stringify(locations, null, 2));
+console.log('Successfully generated locations.json with', locations.length, 'venues.');

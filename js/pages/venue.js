@@ -2,7 +2,7 @@
 //  ERBILEATS — Venue Detail Page
 // ============================================
 import { VENUES } from '../data/venues.js';
-import { renderStars, renderRatingBars, animateRatingBars, initLazyImages, store, showToast, todayName } from '../utils.js';
+import { renderStars, renderRatingBars, animateRatingBars, initLazyImages, store, showToast, todayName, initReveal } from '../utils.js';
 
 export function renderVenue(id) {
   const venue = VENUES.find(v => v.id === parseInt(id));
@@ -83,8 +83,8 @@ export function renderVenue(id) {
           </div>
 
           <!-- Menu Highlights -->
-          <div class="menu-section reveal">
-            <h2 class="menu-section__title">🍴 Menu Highlights</h2>
+          <div class="menu-section reveal" id="menu-section">
+            <h2 class="menu-section__title">🍴 هەڵبژاردەکانی خواردننامە (Menu)</h2>
             <div class="menu-grid">
               ${venue.menu.map(item => `
                 <div class="menu-item">
@@ -98,6 +98,7 @@ export function renderVenue(id) {
                   </div>
                 </div>`).join('')}
             </div>
+            <a href="#menu/${venue.id}" class="btn btn-secondary" style="width:100%; margin-top:var(--space-4); display:flex; justify-content:center; padding:var(--space-4); border-color:var(--gold-400); color:var(--neutral-900);">بینینی تەواوی مینیۆی دیجیتاڵی 📖</a>
           </div>
 
           <!-- Reviews -->
@@ -118,7 +119,8 @@ export function renderVenue(id) {
             <div class="venue-sidebar__cta">
               <h3>ئامادەی بۆ سەردان؟</h3>
               <p style="color:rgba(255,255,255,0.75);font-size:0.9rem;margin-bottom:1rem">پلان دابنێ بۆ سەردانی ${venue.nameKu || venue.name}</p>
-              <a href="tel:${venue.phone}" class="btn btn-gold btn-lg" style="width:100%;justify-content:center" id="call-btn">📞 پەیوەندی بکە</a>
+              <a href="tel:${venue.phone}" class="btn btn-gold btn-lg" style="width:100%;justify-content:center;margin-bottom:var(--space-2)" id="call-btn">📞 پەیوەندی بکە</a>
+              <button class="btn btn-secondary btn-lg" style="width:100%;justify-content:center" onclick="document.getElementById('menu-section').scrollIntoView({behavior: 'smooth'})" id="view-menu-sidebar-btn">🍴 بینینی خواردننامە</button>
             </div>
             <div class="venue-sidebar__details">
               <!-- Status -->
@@ -144,6 +146,7 @@ export function renderVenue(id) {
                 <div>
                   <div class="venue-sidebar__row-label">ناونیشان</div>
                   <div class="venue-sidebar__row-value">${venue.address}</div>
+                  <a href="https://maps.google.com/?q=${venue.lat || 36.1901},${venue.lng || 44.0090}" target="_blank" style="font-size: 12px; color: var(--color-primary); text-decoration: underline; margin-top: 4px; display: inline-block;">بۆ بینینی شوێنەکە کرتە بکە</a>
                 </div>
               </div>
               <!-- Phone -->
@@ -188,19 +191,19 @@ export function renderVenue(id) {
     <div class="modal-overlay" id="review-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
       <div class="modal">
         <div class="modal__header">
-          <h2 class="modal__title" id="modal-title">Write a Review</h2>
+          <h2 class="modal__title" id="modal-title">پێداچوونەوە بنووسە</h2>
           <button class="modal__close" id="close-review-modal-btn" aria-label="Close">✕</button>
         </div>
         <div class="modal__body">
-          <p style="color:var(--color-text-secondary);margin-bottom:var(--space-5)">Share your experience at <strong>${venue.name}</strong></p>
+          <p style="color:var(--color-text-secondary);margin-bottom:var(--space-5)">ئەزموونی خۆت لە <strong>${venue.nameKu || venue.name}</strong> هاوبەش بکە</p>
 
           <div class="form-group">
-            <label class="form-label" for="reviewer-name">Your Name</label>
-            <input type="text" class="form-input" id="reviewer-name" placeholder="e.g. Sara K." maxlength="50">
+            <label class="form-label" for="reviewer-name">ناو</label>
+            <input type="text" class="form-input" id="reviewer-name" placeholder="بۆ نموونە سارا ئـ." maxlength="50">
           </div>
 
           <div class="form-group">
-            <label class="form-label">Overall Rating</label>
+            <label class="form-label">هەڵسەنگاندنی گشتی</label>
             <div class="stars stars-xl star-interactive" id="overall-stars" role="radiogroup" aria-label="Overall rating">
               ${[1,2,3,4,5].map(i=>`<span class="star" data-val="${i}" role="radio" aria-label="${i} star" tabindex="0">★</span>`).join('')}
             </div>
@@ -210,7 +213,7 @@ export function renderVenue(id) {
           <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:var(--space-4);margin-bottom:var(--space-5)">
             ${['food','vibe','service'].map(cat=>`
               <div>
-                <label class="form-label" style="text-transform:capitalize">${cat}</label>
+                <label class="form-label" style="text-transform:capitalize">${cat === 'food' ? 'خواردن' : cat === 'vibe' ? 'کەشوهەوا' : 'خزمەتگوزاری'}</label>
                 <div class="stars star-interactive" id="${cat}-stars" role="radiogroup" aria-label="${cat} rating">
                   ${[1,2,3,4,5].map(i=>`<span class="star" data-val="${i}" tabindex="0">★</span>`).join('')}
                 </div>
@@ -219,12 +222,12 @@ export function renderVenue(id) {
           </div>
 
           <div class="form-group">
-            <label class="form-label" for="review-text">Your Review</label>
+            <label class="form-label" for="review-text">پێداچوونەوەی تۆ</label>
             <textarea class="form-input form-textarea" id="review-text"
-              placeholder="Tell others about your experience — the food, atmosphere, service…"
+              placeholder="بەوانی تر بڵێ دەربارەی ئەزموونەکەت - خواردن، کەشوهەوا، خزمەتگوزاری..."
               maxlength="500" rows="4"></textarea>
-            <div style="text-align:right;font-size:0.75rem;color:var(--color-text-muted);margin-top:4px">
-              <span id="char-count">0</span>/500 characters
+            <div style="text-align:end;font-size:0.75rem;color:var(--color-text-muted);margin-top:4px">
+              <span id="char-count">0</span>/500 پیت
             </div>
           </div>
         </div>
@@ -246,7 +249,7 @@ function renderReviewCard(r) {
         <div class="review-card__author">${r.author}</div>
         <div class="review-card__date">${r.date}</div>
       </div>
-      <div style="margin-left:auto">${renderStars(r.overall)}</div>
+      <div style="margin-inline-start:auto">${renderStars(r.overall)}</div>
     </div>
     <div class="review-card__ratings">
       <div class="review-card__rating-item">🍽️ خواردن: ${renderStars(r.foodRating)}</div>
@@ -267,11 +270,12 @@ function avatarColor(name) {
 }
 
 function getPriceLabel(p) {
-  return ({$:'Very affordable',$$:'Moderate',$$$ :'Upscale',$$$$:'Fine dining'})[p]||'';
+  return ({$:'زۆر گونجاو',$$:'مامناوەند',$$$ :'گرانبەها',$$$$:'زۆر گرانبەها (لۆکس)'})[p]||'';
 }
 
 export function initVenue(id) {
   initLazyImages(document);
+  initReveal(document);
 
   // Gallery strip
   document.querySelectorAll('.venue-gallery-strip img').forEach(thumb => {
@@ -336,9 +340,9 @@ export function initVenue(id) {
     const vibe    = parseInt(document.getElementById('vibe-rating-val').value)||0;
     const service = parseInt(document.getElementById('service-rating-val').value)||0;
 
-    if (!name)    { showToast('Please enter your name', ''); return; }
-    if (!overall) { showToast('Please select an overall rating', ''); return; }
-    if (!text)    { showToast('Please write a review', ''); return; }
+    if (!name)    { showToast('تکایە ناو بنووسە', ''); return; }
+    if (!overall) { showToast('تکایە هەڵسەنگاندنی گشتی هەڵبژێرە', ''); return; }
+    if (!text)    { showToast('تکایە پێداچوونەوەیەک بنووسە', ''); return; }
 
     const review = {
       id: Date.now(),
@@ -365,7 +369,7 @@ export function initVenue(id) {
     }
 
     overlay?.classList.remove('open');
-    showToast('✅ Review submitted — thank you!', 'success');
+    showToast('✅ پێداچوونەوەکەت نێردرا - سوپاس!', 'success');
 
     // Reset form
     ['reviewer-name','review-text'].forEach(id=>{ const el=document.getElementById(id); if(el) el.value=''; });

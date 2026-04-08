@@ -12,8 +12,8 @@ export function renderHome() {
   <!-- ── HERO ── -->
   <section class="hero" id="hero-section" aria-label="Hero">
     <div class="hero__bg">
-      <img src="img/hero-bg.jpg"
-           alt="Erbil aerial view" onerror="this.src='img/hero-bg.png'">
+      <img src="img/fa34428b7658a9924cd1c28cf146e052.jpg"
+           alt="Erbil aerial view">
     </div>
     <div class="hero__content">
       <div class="hero__eyebrow">📍 هەولێر، هەرێمی کوردستان</div>
@@ -208,7 +208,7 @@ function initHeroSearch() {
           <div style="font-weight:600;font-size:0.9rem">${v.nameKu || v.name}</div>
           <div style="font-size:0.75rem;color:var(--color-text-muted)">${v.category} · ${v.neighborhood}</div>
         </div>
-        <div style="margin-left:auto;font-size:0.8rem;color:var(--color-star);display:flex;align-items:center;gap:4px;">
+        <div style="margin-inline-start:auto;font-size:0.8rem;color:var(--color-star);display:flex;align-items:center;gap:4px;">
           <i data-lucide="star" fill="currentColor" style="width:12px;height:12px;"></i> ${v.rating}
         </div>
       </div>`).join('');

@@ -18,6 +18,10 @@ export function renderNavbar(activePage = 'home') {
       </div>
 
       <div class="navbar__actions">
+        <!-- New Map Button -->
+        <a href="map-feature/index.html" class="navbar__search-btn btn-icon" aria-label="نەخشە" title="نەخشەی شوێنەکان" style="text-decoration:none; color:inherit;">
+          <i data-lucide="map-pinned"></i>
+        </a>
         <button class="navbar__search-btn btn-icon" id="nav-dark-btn" aria-label="Dark mode" title="Dark mode" style="font-size: 1.2rem; cursor: pointer;">
           <i data-lucide="moon"></i>
         </button>
@@ -42,7 +46,9 @@ export function renderNavbar(activePage = 'home') {
         <div style="font-size:0.75rem;color:var(--color-text-muted)">باشترینەکانی هەولێر بدۆزەرەوە</div>
       </div>
       <a href="#home"   class="drawer-link" id="drawer-home" style="display:flex;align-items:center;gap:8px;"><i data-lucide="home" style="width:20px;height:20px;"></i> سەرەتا</a>
-      <a href="#browse" class="drawer-link" id="drawer-browse" style="display:flex;align-items:center;gap:8px;"><i data-lucide="map" style="width:20px;height:20px;"></i> گەڕان بە هەموویان</a>
+      <!-- New Mobile Map Link -->
+      <a href="map-feature/index.html" class="drawer-link" id="drawer-map-mobile" style="display:flex;align-items:center;gap:8px;color:var(--green-500)"><i data-lucide="map-pinned" style="width:20px;height:20px;"></i> نەخشەی شوێنەکان</a>
+      <a href="#browse" class="drawer-link" id="drawer-browse" style="display:flex;align-items:center;gap:8px;"><i data-lucide="layout-grid" style="width:20px;height:20px;"></i> گەڕان بەسەر هەموویان</a>
       <a href="#browse?cat=traditional" class="drawer-link" id="drawer-kurdish" style="display:flex;align-items:center;gap:8px;"><i data-lucide="utensils" style="width:20px;height:20px;"></i> خواردنی کوردی</a>
       <a href="#browse?cat=coffee" class="drawer-link" id="drawer-cafes" style="display:flex;align-items:center;gap:8px;"><i data-lucide="coffee" style="width:20px;height:20px;"></i> کافێیەکان</a>
       <a href="#profile" class="drawer-link" id="drawer-profile" style="display:flex;align-items:center;gap:8px;"><i data-lucide="user" style="width:20px;height:20px;"></i> پڕۆفایل</a>
@@ -72,12 +78,17 @@ export function initNavbar() {
 
   // Scroll behavior
   function onScroll() {
+    const isHomePage = window.location.hash === '' || window.location.hash.startsWith('#home');
     if (window.scrollY > 60) {
       navbar.classList.remove('transparent');
       navbar.classList.add('scrolled');
     } else {
       navbar.classList.remove('scrolled');
-      navbar.classList.add('transparent');
+      if (isHomePage) {
+        navbar.classList.add('transparent');
+      } else {
+        navbar.classList.remove('transparent');
+      }
     }
   }
   window.addEventListener('scroll', onScroll, { passive: true });

@@ -1,0 +1,2365 @@
+[
+  {
+    "id": 1,
+    "name": "Abu Shahab Kebab House",
+    "nameKu": "خانەی کەبابی ئەبو شەهاب",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Citadel",
+    "address": "Near the Grand Bazaar, Citadel District, Erbil",
+    "phone": "+964 750 123 4567",
+    "rating": 4.8,
+    "reviewCount": 312,
+    "price": "$",
+    "isOpen": true,
+    "description": "خانەی کەبابی ئەبو شەهاب",
+    "tags": [
+      "Kebab",
+      "Grilled",
+      "Family Friendly",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.192,
+      "lng": 44.009
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/1"
+  },
+  {
+    "id": 2,
+    "name": "The Rooftop at Rotana",
+    "nameKu": "باندەی سەر بانی ڕۆتانا",
+    "category": "Fine Dining",
+    "neighborhood": "Empire World",
+    "address": "Rotana Hotel, Empire World, Erbil",
+    "phone": "+964 750 234 5678",
+    "rating": 4.6,
+    "reviewCount": 187,
+    "price": "$",
+    "isOpen": true,
+    "description": "باندەی سەر بانی ڕۆتانا",
+    "tags": [
+      "Rooftop",
+      "City View",
+      "Cocktails",
+      "Fine Dining",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.2026,
+      "lng": 44.0093
+    },
+    "imageURL": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    "menuURL": "../index.html#venue/2"
+  },
+  {
+    "id": 3,
+    "name": "Caffè Florian Erbil",
+    "nameKu": "کافی فلۆریان ئەربیل",
+    "category": "Specialty Coffee",
+    "neighborhood": "Ankawa",
+    "address": "Italian Street, Ankawa, Erbil",
+    "phone": "+964 750 345 6789",
+    "rating": 4.7,
+    "reviewCount": 254,
+    "price": "$",
+    "isOpen": true,
+    "description": "کافی فلۆریان ئەربیل",
+    "tags": [
+      "Coffee",
+      "Brunch",
+      "Cozy",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.2248,
+      "lng": 43.9966
+    },
+    "imageURL": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    "menuURL": "../index.html#venue/3"
+  },
+  {
+    "id": 4,
+    "name": "Machko Chai Khana",
+    "nameKu": "چێخانەی ماچکۆ",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Citadel",
+    "address": "Mudhafaria Minaret Road, Citadel, Erbil",
+    "phone": "+964 750 456 7890",
+    "rating": 4.9,
+    "reviewCount": 521,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێخانەی ماچکۆ",
+    "tags": [
+      "Tea House",
+      "Historic",
+      "Backgammon",
+      "Authentic",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.191,
+      "lng": 44.0112
+    },
+    "imageURL": "https://images.unsplash.com/photo-1530695440407-21fef47230b1?w=800&q=80",
+    "menuURL": "../index.html#venue/4"
+  },
+  {
+    "id": 5,
+    "name": "Shisha Palace — Dream City",
+    "nameKu": "قەسری شیشە — دریم سیتی",
+    "category": "Shisha Lounge",
+    "neighborhood": "Dream City",
+    "address": "Dream City Mall, Upper Level, Erbil",
+    "phone": "+964 750 567 8901",
+    "rating": 4.4,
+    "reviewCount": 198,
+    "price": "$",
+    "isOpen": true,
+    "description": "قەسری شیشە — دریم سیتی",
+    "tags": [
+      "Shisha",
+      "Lounge",
+      "Night Out",
+      "Groups",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.185,
+      "lng": 44.042
+    },
+    "imageURL": "https://images.unsplash.com/photo-1524099163253-32b7f0256868?w=800&q=80",
+    "menuURL": "../index.html#venue/5"
+  },
+  {
+    "id": 6,
+    "name": "Burger Hub Bakhtiari",
+    "nameKu": "بەرگەر هەب بەختیاری",
+    "category": "Fast Food",
+    "neighborhood": "Bakhtiari",
+    "address": "Bakhtiari District, Main Street, Erbil",
+    "phone": "+964 750 678 9012",
+    "rating": 4.3,
+    "reviewCount": 143,
+    "price": "$",
+    "isOpen": true,
+    "description": "بەرگەر هەب بەختیاری",
+    "tags": [
+      "Burgers",
+      "Fast Food",
+      "Delivery",
+      "Halal",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.198,
+      "lng": 44.023
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/6"
+  },
+  {
+    "id": 7,
+    "name": "Iskan Garden Restaurant",
+    "nameKu": "چێشتخانەی باخچەی ئیسکان",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Iskan",
+    "address": "Iskan District, Garden Road, Erbil",
+    "phone": "+964 750 789 0123",
+    "rating": 4.5,
+    "reviewCount": 231,
+    "price": "$",
+    "isOpen": false,
+    "description": "چێشتخانەی باخچەی ئیسکان",
+    "tags": [
+      "Garden Seating",
+      "Family",
+      "Kurdish Cuisine",
+      "Events"
+    ],
+    "coords": {
+      "lat": 36.208,
+      "lng": 44.018
+    },
+    "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+    "menuURL": "../index.html#venue/7"
+  },
+  {
+    "id": 8,
+    "name": "Ankawa Coffee Roasters",
+    "nameKu": "قاوەی ئەنکاوا ڕۆسترز",
+    "category": "Specialty Coffee",
+    "neighborhood": "Ankawa",
+    "address": "Christian Quarter, Ankawa, Erbil",
+    "phone": "+964 750 890 1234",
+    "rating": 4.6,
+    "reviewCount": 178,
+    "price": "$",
+    "isOpen": true,
+    "description": "قاوەی ئەنکاوا ڕۆسترز",
+    "tags": [
+      "Specialty Coffee",
+      "Artisan",
+      "Brunch",
+      "Quiet",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.226,
+      "lng": 43.9978
+    },
+    "imageURL": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "menuURL": "../index.html#venue/8"
+  },
+  {
+    "id": 9,
+    "name": "Empire Food Court",
+    "nameKu": "فوود کۆرتی ئیمپایەر",
+    "category": "Fast Food",
+    "neighborhood": "Empire World",
+    "address": "Empire World Mall, Ground Floor, Erbil",
+    "phone": "+964 750 901 2345",
+    "rating": 4.1,
+    "reviewCount": 89,
+    "price": "$",
+    "isOpen": true,
+    "description": "فوود کۆرتی ئیمپایەر",
+    "tags": [
+      "Food Court",
+      "Quick Bites",
+      "Mall",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.202,
+      "lng": 44.0085
+    },
+    "imageURL": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+    "menuURL": "../index.html#venue/9"
+  },
+  {
+    "id": 10,
+    "name": "Al Diwan Fine Restaurant",
+    "nameKu": "چێشتخانەی ئەل دیوان",
+    "category": "Fine Dining",
+    "neighborhood": "Bakhtiari",
+    "address": "Bakhtiari Tower, Erbil",
+    "phone": "+964 750 012 3456",
+    "rating": 4.5,
+    "reviewCount": 152,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێشتخانەی ئەل دیوان",
+    "tags": [
+      "Lebanese",
+      "Fine Dining",
+      "Mezze",
+      "Events",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.197,
+      "lng": 44.0215
+    },
+    "imageURL": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "menuURL": "../index.html#venue/10"
+  },
+  {
+    "id": 11,
+    "name": "Citadel View Lounge",
+    "nameKu": "لاونجی دیمەنی قەڵا",
+    "category": "Shisha Lounge",
+    "neighborhood": "Citadel",
+    "address": "Historic Quarter, Citadel Gate, Erbil",
+    "phone": "+964 750 123 6789",
+    "rating": 4.7,
+    "reviewCount": 265,
+    "price": "$",
+    "isOpen": true,
+    "description": "لاونجی دیمەنی قەڵا",
+    "tags": [
+      "Rooftop",
+      "Citadel View",
+      "Shisha",
+      "Scenic",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.1915,
+      "lng": 44.0125
+    },
+    "imageURL": "https://images.unsplash.com/photo-1571934811356-5cc061b6821f?w=800&q=80",
+    "menuURL": "../index.html#venue/11"
+  },
+  {
+    "id": 12,
+    "name": "Naz Patisserie & Café",
+    "nameKu": "پاتیسیری و کافێی ناز",
+    "category": "Specialty Coffee",
+    "neighborhood": "Dream City",
+    "address": "Dream City Boulevard, Erbil",
+    "phone": "+964 750 234 6789",
+    "rating": 4.4,
+    "reviewCount": 189,
+    "price": "$",
+    "isOpen": true,
+    "description": "پاتیسیری و کافێی ناز",
+    "tags": [
+      "Pastry",
+      "Cakes",
+      "Brunch",
+      "Instagram-worthy",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.1845,
+      "lng": 44.0415
+    },
+    "imageURL": "https://images.unsplash.com/photo-1559305616-3f99cd43e353?w=800&q=80",
+    "menuURL": "../index.html#venue/12"
+  },
+  {
+    "id": 13,
+    "name": "Peshawa Restaurant",
+    "nameKu": "چێشتخانەی پێشەوا",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Ankawa",
+    "address": "Main Road, Ankawa, Erbil",
+    "phone": "+964 750 111 2233",
+    "rating": 4.8,
+    "reviewCount": 305,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێشتخانەی پێشەوا",
+    "tags": [
+      "Kabab",
+      "Family",
+      "Authentic"
+    ],
+    "coords": {
+      "lat": 36.223,
+      "lng": 43.993
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/13"
+  },
+  {
+    "id": 14,
+    "name": "Fink Cafe",
+    "nameKu": "کافێی فینک",
+    "category": "Specialty Coffee",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil",
+    "phone": "+964 750 333 4455",
+    "rating": 4.5,
+    "reviewCount": 120,
+    "price": "$",
+    "isOpen": true,
+    "description": "کافێی فینک",
+    "tags": [
+      "Coffee",
+      "Quiet",
+      "Work",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.186,
+      "lng": 44.043
+    },
+    "imageURL": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=800&q=80",
+    "menuURL": "../index.html#venue/14"
+  },
+  {
+    "id": 15,
+    "name": "Tandoori Kurdish",
+    "nameKu": "تەندوری کوردی",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Citadel",
+    "address": "Citadel Base, Erbil",
+    "phone": "+964 750 555 6677",
+    "rating": 4.6,
+    "reviewCount": 210,
+    "price": "$",
+    "isOpen": true,
+    "description": "تەندوری کوردی",
+    "tags": [
+      "Bread",
+      "Kurdish",
+      "Breakfast",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.1918,
+      "lng": 44.01
+    },
+    "imageURL": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?w=800&q=80",
+    "menuURL": "../index.html#venue/15"
+  },
+  {
+    "id": 16,
+    "name": "Samad Restaurant",
+    "nameKu": "چێشتخانەی سەمەد",
+    "category": "Fine Dining",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil",
+    "phone": "+964 750 999 8877",
+    "rating": 4.8,
+    "reviewCount": 450,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێشتخانەی سەمەد",
+    "tags": [
+      "Fine Dining",
+      "Iraqi",
+      "Kouzey",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.2,
+      "lng": 44.01
+    },
+    "imageURL": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&q=80",
+    "menuURL": "../index.html#venue/16"
+  },
+  {
+    "id": 17,
+    "name": "Tche Tche Cafe",
+    "nameKu": "کافێی چێ چێ",
+    "category": "Shisha Lounge",
+    "neighborhood": "Dream City",
+    "address": "Dream City Main Entrance, Erbil",
+    "phone": "+964 750 444 5566",
+    "rating": 4.5,
+    "reviewCount": 320,
+    "price": "$",
+    "isOpen": true,
+    "description": "کافێی چێ چێ",
+    "tags": [
+      "Shisha",
+      "Desserts",
+      "Outdoor Seating",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.1855,
+      "lng": 44.041
+    },
+    "imageURL": "https://images.unsplash.com/photo-1516684732162-798a0062be99?w=800&q=80",
+    "menuURL": "../index.html#venue/17"
+  },
+  {
+    "id": 18,
+    "name": "Dawa 2 Restaurant",
+    "nameKu": "چێشتخانەی داوا ٢",
+    "category": "Fine Dining",
+    "neighborhood": "Bakhtiari",
+    "address": "Bakhtiari Main Road, Erbil",
+    "phone": "+964 750 777 8899",
+    "rating": 4.6,
+    "reviewCount": 210,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێشتخانەی داوا ٢",
+    "tags": [
+      "Grill",
+      "Buffet",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.1965,
+      "lng": 44.02
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80",
+    "menuURL": "../index.html#venue/18"
+  },
+  {
+    "id": 19,
+    "name": "Saj Al Reef",
+    "nameKu": "ساج ئەلڕیف",
+    "category": "Fast Food",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil",
+    "phone": "+964 750 222 3344",
+    "rating": 4.2,
+    "reviewCount": 380,
+    "price": "$",
+    "isOpen": true,
+    "description": "ساج ئەلڕیف",
+    "tags": [
+      "Shawarma",
+      "Saj",
+      "Quick Bites",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.21,
+      "lng": 43.99
+    },
+    "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "menuURL": "../index.html#venue/19"
+  },
+  {
+    "id": 20,
+    "name": "Bêxal Restaurant",
+    "nameKu": "چێشتخانەی بێخاڵ",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Peshawa",
+    "address": "Peshawa Qazi Street, Erbil",
+    "phone": "+964 750 111 5566",
+    "rating": 4.4,
+    "reviewCount": 160,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێشتخانەی بێخاڵ",
+    "tags": [
+      "Kurdish",
+      "Fish",
+      "Kebab",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.215,
+      "lng": 44.02
+    },
+    "imageURL": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?w=800&q=80",
+    "menuURL": "../index.html#venue/20"
+  },
+  {
+    "id": 21,
+    "name": "Soma Restaurant",
+    "nameKu": "چێشتخانەی سۆما",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Near English Village, Erbil",
+    "phone": "+964 750 120 5566",
+    "rating": 4.6,
+    "reviewCount": 342,
+    "price": "$",
+    "isOpen": true,
+    "description": "چێشتخانەی سۆما",
+    "tags": [
+      "Kurdish",
+      "Family Friendly",
+      "Traditional",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.2085,
+      "lng": 43.992
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&q=80",
+    "menuURL": "../index.html#venue/21"
+  },
+  {
+    "id": 22,
+    "name": "Barista's Corner",
+    "nameKu": "کۆڕنەری باریستا",
+    "category": "Specialty Coffee",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Inside the complex, Erbil",
+    "phone": "+964 750 334 8899",
+    "rating": 4.8,
+    "reviewCount": 410,
+    "price": "$",
+    "isOpen": true,
+    "description": "کۆڕنەری باریستا",
+    "tags": [
+      "Coffee",
+      "Artisan",
+      "Cozy",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.184,
+      "lng": 44.0435
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/22"
+  },
+  {
+    "id": 23,
+    "name": "Golden Steaks",
+    "nameKu": "ستێکی زێڕین",
+    "category": "Fine Dining",
+    "neighborhood": "Empire World",
+    "address": "Empire World Towers, Erbil",
+    "phone": "+964 750 999 0000",
+    "rating": 4.9,
+    "reviewCount": 220,
+    "price": "$",
+    "isOpen": true,
+    "description": "ستێکی زێڕین",
+    "tags": [
+      "Steakhouse",
+      "Fine Dining",
+      "Luxury",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.204,
+      "lng": 44.006
+    },
+    "imageURL": "https://images.unsplash.com/photo-1558030006-450675393462?w=800&q=80",
+    "menuURL": "../index.html#venue/23"
+  },
+  {
+    "id": 24,
+    "name": "Hawler Pizza & Pasta",
+    "nameKu": "پیتزا و پاستای هەولێر",
+    "category": "Fast Food",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa Main Street, Erbil",
+    "phone": "+964 750 444 7788",
+    "rating": 4.4,
+    "reviewCount": 520,
+    "price": "$",
+    "isOpen": true,
+    "description": "پیتزا و پاستای هەولێر",
+    "tags": [
+      "Pizza",
+      "Pasta",
+      "Quick Bites",
+      "Italian",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.223,
+      "lng": 43.991
+    },
+    "imageURL": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&q=80",
+    "menuURL": "../index.html#venue/24"
+  },
+  {
+    "id": 25,
+    "name": "The Grill",
+    "nameKu": "زە گریل",
+    "category": "Steakhouse",
+    "neighborhood": "Gulan Park",
+    "address": "Gulan Park, Erbil / هەولێر",
+    "phone": "+964 750 980 9694",
+    "rating": 4.7,
+    "reviewCount": 468,
+    "price": "$$",
+    "isOpen": true,
+    "description": "زە گریل",
+    "tags": [
+      "Steakhouse",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.213880032537034,
+      "lng": 44.013182422486175
+    },
+    "imageURL": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    "menuURL": "../index.html#venue/25"
+  },
+  {
+    "id": 26,
+    "name": "ABC Restaurant",
+    "nameKu": "چێشتخانەی ئەی بی سی",
+    "category": "Fusion",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 290 2761",
+    "rating": 4.8,
+    "reviewCount": 374,
+    "price": "$$",
+    "isOpen": true,
+    "description": "چێشتخانەی ئەی بی سی",
+    "tags": [
+      "Fusion",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.20067661504116,
+      "lng": 44.00021447902732
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/26"
+  },
+  {
+    "id": 27,
+    "name": "Bamboo Asian",
+    "nameKu": "بامبو ئەیژین",
+    "category": "Asian",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 554 7795",
+    "rating": 4.4,
+    "reviewCount": 290,
+    "price": "$$",
+    "isOpen": true,
+    "description": "بامبو ئەیژین",
+    "tags": [
+      "Asian",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.196210075257945,
+      "lng": 44.017796672190215
+    },
+    "imageURL": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "menuURL": "../index.html#venue/27"
+  },
+  {
+    "id": 28,
+    "name": "Naranj",
+    "nameKu": "نارنج",
+    "category": "Syrian",
+    "neighborhood": "Italian Village",
+    "address": "Italian Village, Erbil / هەولێر",
+    "phone": "+964 750 255 6905",
+    "rating": 4.7,
+    "reviewCount": 365,
+    "price": "$$",
+    "isOpen": true,
+    "description": "نارنج",
+    "tags": [
+      "Syrian",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.2061053673407,
+      "lng": 44.02705633791275
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/28"
+  },
+  {
+    "id": 29,
+    "name": "Basilico",
+    "nameKu": "بازیلیکۆ",
+    "category": "Italian",
+    "neighborhood": "Rotana",
+    "address": "Rotana, Erbil / هەولێر",
+    "phone": "+964 750 571 8748",
+    "rating": 4.1,
+    "reviewCount": 417,
+    "price": "$$",
+    "isOpen": true,
+    "description": "بازیلیکۆ",
+    "tags": [
+      "Italian",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.182197909109014,
+      "lng": 43.98963307305823
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/29"
+  },
+  {
+    "id": 30,
+    "name": "Kabab Yasin",
+    "nameKu": "کەبابی یاسین",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Bazaar",
+    "address": "Bazaar, Erbil / هەولێر",
+    "phone": "+964 750 294 4849",
+    "rating": 4.4,
+    "reviewCount": 318,
+    "price": "$",
+    "isOpen": true,
+    "description": "کەبابی یاسین",
+    "tags": [
+      "Traditional Kurdish",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.189528050957655,
+      "lng": 44.00664494305876
+    },
+    "imageURL": "https://images.unsplash.com/photo-1530695440407-21fef47230b1?w=800&q=80",
+    "menuURL": "../index.html#venue/30"
+  },
+  {
+    "id": 31,
+    "name": "Twenty Nine Cafe",
+    "nameKu": "کافێی توێنی ناین",
+    "category": "Specialty Coffee",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 295 1907",
+    "rating": 5,
+    "reviewCount": 317,
+    "price": "$",
+    "isOpen": true,
+    "description": "کافێی توێنی ناین",
+    "tags": [
+      "Specialty Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.211415180921406,
+      "lng": 44.019476939564626
+    },
+    "imageURL": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "menuURL": "../index.html#venue/31"
+  },
+  {
+    "id": 32,
+    "name": "Shaghf Cafe",
+    "nameKu": "کافێ شەغف",
+    "category": "Coffee",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 335 4037",
+    "rating": 4.7,
+    "reviewCount": 94,
+    "price": "$",
+    "isOpen": true,
+    "description": "کافێ شەغف",
+    "tags": [
+      "Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.198758726074146,
+      "lng": 44.00030140472651
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/32"
+  },
+  {
+    "id": 33,
+    "name": "Barista Coffee",
+    "nameKu": "باریستا کۆفی",
+    "category": "Coffee",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 460 6530",
+    "rating": 4.4,
+    "reviewCount": 543,
+    "price": "$",
+    "isOpen": true,
+    "description": "باریستا کۆفی",
+    "tags": [
+      "Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.208239343998486,
+      "lng": 44.0285878010017
+    },
+    "imageURL": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    "menuURL": "../index.html#venue/33"
+  },
+  {
+    "id": 34,
+    "name": "Mam Khalil Cafe",
+    "nameKu": "چایخانەی مام خەلیل",
+    "category": "Traditional Kurdish",
+    "neighborhood": "Qaysari Bazaar",
+    "address": "Qaysari Bazaar, Erbil / هەولێر",
+    "phone": "+964 750 781 2780",
+    "rating": 4.7,
+    "reviewCount": 328,
+    "price": "$",
+    "isOpen": true,
+    "description": "چایخانەی مام خەلیل",
+    "tags": [
+      "Traditional Kurdish",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.197121842956776,
+      "lng": 44.02684824677911
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/34"
+  },
+  {
+    "id": 35,
+    "name": "Origin Cafe",
+    "nameKu": "ئۆریجن کافێ",
+    "category": "Specialty Coffee",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 969 9194",
+    "rating": 4.2,
+    "reviewCount": 531,
+    "price": "$",
+    "isOpen": true,
+    "description": "ئۆریجن کافێ",
+    "tags": [
+      "Specialty Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.18593318592179,
+      "lng": 43.99024229993613
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/35"
+  },
+  {
+    "id": 36,
+    "name": "Cafe Barbera",
+    "nameKu": "کافێ باربێرا",
+    "category": "Italian Cafe",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 832 3571",
+    "rating": 4.7,
+    "reviewCount": 418,
+    "price": "$",
+    "isOpen": true,
+    "description": "کافێ باربێرا",
+    "tags": [
+      "Italian Cafe",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.18202941429029,
+      "lng": 44.02013586414287
+    },
+    "imageURL": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    "menuURL": "../index.html#venue/36"
+  },
+  {
+    "id": 37,
+    "name": "Hardee's",
+    "nameKu": "هاردیز",
+    "category": "Fast Food",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 263 8407",
+    "rating": 4.6,
+    "reviewCount": 79,
+    "price": "$",
+    "isOpen": true,
+    "description": "هاردیز",
+    "tags": [
+      "Fast Food",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.16913282281804,
+      "lng": 44.00458772991582
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/37"
+  },
+  {
+    "id": 38,
+    "name": "KFC Erbil",
+    "nameKu": "کەی ئێف سی هەولێر",
+    "category": "Fast Food",
+    "neighborhood": "Family Mall",
+    "address": "Family Mall, Erbil / هەولێر",
+    "phone": "+964 750 304 5404",
+    "rating": 4.2,
+    "reviewCount": 514,
+    "price": "$",
+    "isOpen": true,
+    "description": "کەی ئێف سی هەولێر",
+    "tags": [
+      "Fast Food",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.183390835235485,
+      "lng": 43.988241322905715
+    },
+    "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "menuURL": "../index.html#venue/38"
+  },
+  {
+    "id": 39,
+    "name": "Pizza Hut",
+    "nameKu": "پیتزا هەت",
+    "category": "Fast Food",
+    "neighborhood": "Majidi Mall",
+    "address": "Majidi Mall, Erbil / هەولێر",
+    "phone": "+964 750 843 9434",
+    "rating": 4.6,
+    "reviewCount": 280,
+    "price": "$",
+    "isOpen": true,
+    "description": "پیتزا هەت",
+    "tags": [
+      "Fast Food",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.19738096615491,
+      "lng": 43.98565935509054
+    },
+    "imageURL": "https://images.unsplash.com/photo-1561758033-7e924f619b47?w=800&q=80",
+    "menuURL": "../index.html#venue/39"
+  },
+  {
+    "id": 40,
+    "name": "Zaitoona",
+    "nameKu": "زەیتوونە",
+    "category": "Lebanese",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 112 5596",
+    "rating": 4.8,
+    "reviewCount": 448,
+    "price": "$$",
+    "isOpen": true,
+    "description": "زەیتوونە",
+    "tags": [
+      "Lebanese",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.17807378879591,
+      "lng": 44.02960743911719
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/40"
+  },
+  {
+    "id": 41,
+    "name": "Tarboush",
+    "nameKu": "تەربووش",
+    "category": "Lebanese",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 343 2611",
+    "rating": 4.3,
+    "reviewCount": 53,
+    "price": "$",
+    "isOpen": true,
+    "description": "تەربووش",
+    "tags": [
+      "Lebanese",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.18621772376054,
+      "lng": 44.028176954382424
+    },
+    "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+    "menuURL": "../index.html#venue/41"
+  },
+  {
+    "id": 42,
+    "name": "Al Dayaa",
+    "nameKu": "ئەل دەیعە",
+    "category": "Lebanese",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 432 1170",
+    "rating": 4.1,
+    "reviewCount": 353,
+    "price": "$",
+    "isOpen": true,
+    "description": "ئەل دەیعە",
+    "tags": [
+      "Lebanese",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.16943537773926,
+      "lng": 44.00718572763937
+    },
+    "imageURL": "https://images.unsplash.com/photo-1561758033-7e924f619b47?w=800&q=80",
+    "menuURL": "../index.html#venue/42"
+  },
+  {
+    "id": 43,
+    "name": "Mado Erbil",
+    "nameKu": "مادۆ هەولێر",
+    "category": "Turkish",
+    "neighborhood": "Family Mall",
+    "address": "Family Mall, Erbil / هەولێر",
+    "phone": "+964 750 225 6373",
+    "rating": 4.1,
+    "reviewCount": 240,
+    "price": "$",
+    "isOpen": true,
+    "description": "مادۆ هەولێر",
+    "tags": [
+      "Turkish",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.194253388427676,
+      "lng": 44.02682334339288
+    },
+    "imageURL": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "menuURL": "../index.html#venue/43"
+  },
+  {
+    "id": 44,
+    "name": "Midpoint",
+    "nameKu": "میدپۆینت",
+    "category": "International",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 700 1026",
+    "rating": 4.4,
+    "reviewCount": 190,
+    "price": "$$",
+    "isOpen": true,
+    "description": "میدپۆینت",
+    "tags": [
+      "International",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.17637124028182,
+      "lng": 44.033545902203706
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/44"
+  },
+  {
+    "id": 45,
+    "name": "Qamishlo",
+    "nameKu": "قامیشلۆ",
+    "category": "Syrian",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 157 4337",
+    "rating": 4.9,
+    "reviewCount": 317,
+    "price": "$",
+    "isOpen": true,
+    "description": "قامیشلۆ",
+    "tags": [
+      "Syrian",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.20509769060901,
+      "lng": 43.98762795406083
+    },
+    "imageURL": "https://images.unsplash.com/photo-1530695440407-21fef47230b1?w=800&q=80",
+    "menuURL": "../index.html#venue/45"
+  },
+  {
+    "id": 46,
+    "name": "Sushi Boutique",
+    "nameKu": "سوشی بووتیک",
+    "category": "Japanese",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 888 4541",
+    "rating": 4.6,
+    "reviewCount": 62,
+    "price": "$$",
+    "isOpen": true,
+    "description": "سوشی بووتیک",
+    "tags": [
+      "Japanese",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.189591804252764,
+      "lng": 44.01438904130818
+    },
+    "imageURL": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    "menuURL": "../index.html#venue/46"
+  },
+  {
+    "id": 47,
+    "name": "Cello",
+    "nameKu": "چێلۆ",
+    "category": "Italian",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 426 2210",
+    "rating": 4,
+    "reviewCount": 409,
+    "price": "$$",
+    "isOpen": true,
+    "description": "چێلۆ",
+    "tags": [
+      "Italian",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.195226033324815,
+      "lng": 44.007810744290815
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/47"
+  },
+  {
+    "id": 48,
+    "name": "The Butcher",
+    "nameKu": "زە بەچەر",
+    "category": "Steakhouse",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 118 3158",
+    "rating": 4.1,
+    "reviewCount": 475,
+    "price": "$$",
+    "isOpen": true,
+    "description": "زە بەچەر",
+    "tags": [
+      "Steakhouse",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.204869337072196,
+      "lng": 44.005034787609475
+    },
+    "imageURL": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "menuURL": "../index.html#venue/48"
+  },
+  {
+    "id": 49,
+    "name": "Gali Ali Beg",
+    "nameKu": "گەلی عەلی بەگ",
+    "category": "River Fish",
+    "neighborhood": "Korek",
+    "address": "Korek, Erbil / هەولێر",
+    "phone": "+964 750 353 9830",
+    "rating": 4.2,
+    "reviewCount": 234,
+    "price": "$$",
+    "isOpen": true,
+    "description": "گەلی عەلی بەگ",
+    "tags": [
+      "River Fish",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.19446314378052,
+      "lng": 43.98567068764475
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/49"
+  },
+  {
+    "id": 50,
+    "name": "Royal Crown",
+    "nameKu": "ڕۆیاڵ کراون",
+    "category": "Fine Dining",
+    "neighborhood": "Vital Village",
+    "address": "Vital Village, Erbil / هەولێر",
+    "phone": "+964 750 514 4636",
+    "rating": 4.8,
+    "reviewCount": 167,
+    "price": "$$",
+    "isOpen": true,
+    "description": "ڕۆیاڵ کراون",
+    "tags": [
+      "Fine Dining",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.191350618992864,
+      "lng": 44.011144447475104
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/50"
+  },
+  {
+    "id": 51,
+    "name": "Marina Restaurant",
+    "nameKu": "چێشتخانەی مارینا",
+    "category": "Seafood",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 592 2235",
+    "rating": 4.3,
+    "reviewCount": 540,
+    "price": "$$",
+    "isOpen": true,
+    "description": "چێشتخانەی مارینا",
+    "tags": [
+      "Seafood",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.21096260784946,
+      "lng": 44.03300371259697
+    },
+    "imageURL": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "menuURL": "../index.html#venue/51"
+  },
+  {
+    "id": 52,
+    "name": "Burger King",
+    "nameKu": "بەرگەر کینگ",
+    "category": "Fast Food",
+    "neighborhood": "Mega Mall",
+    "address": "Mega Mall, Erbil / هەولێر",
+    "phone": "+964 750 593 5673",
+    "rating": 4.7,
+    "reviewCount": 283,
+    "price": "$",
+    "isOpen": true,
+    "description": "بەرگەر کینگ",
+    "tags": [
+      "Fast Food",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.179597958072684,
+      "lng": 44.01085644370973
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/52"
+  },
+  {
+    "id": 53,
+    "name": "Paul Bakery",
+    "nameKu": "پۆڵ بەیکەری",
+    "category": "French Cafe",
+    "neighborhood": "Gulan Mall",
+    "address": "Gulan Mall, Erbil / هەولێر",
+    "phone": "+964 750 853 2677",
+    "rating": 5,
+    "reviewCount": 242,
+    "price": "$$",
+    "isOpen": true,
+    "description": "پۆڵ بەیکەری",
+    "tags": [
+      "French Cafe",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.17528140760546,
+      "lng": 43.99318030964149
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/53"
+  },
+  {
+    "id": 54,
+    "name": "Cinnabon",
+    "nameKu": "سینابۆن",
+    "category": "Desserts",
+    "neighborhood": "Family Mall",
+    "address": "Family Mall, Erbil / هەولێر",
+    "phone": "+964 750 288 9138",
+    "rating": 4.4,
+    "reviewCount": 397,
+    "price": "$",
+    "isOpen": true,
+    "description": "سینابۆن",
+    "tags": [
+      "Desserts",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.17487085344655,
+      "lng": 43.98533947320987
+    },
+    "imageURL": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    "menuURL": "../index.html#venue/54"
+  },
+  {
+    "id": 55,
+    "name": "Dawa 3",
+    "nameKu": "داوا ٣",
+    "category": "Buffet",
+    "neighborhood": "Peshawa",
+    "address": "Peshawa, Erbil / هەولێر",
+    "phone": "+964 750 814 2053",
+    "rating": 4.2,
+    "reviewCount": 176,
+    "price": "$$",
+    "isOpen": true,
+    "description": "داوا ٣",
+    "tags": [
+      "Buffet",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.18447511921931,
+      "lng": 43.98754770256055
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/55"
+  },
+  {
+    "id": 56,
+    "name": "Sakura",
+    "nameKu": "ساکورا",
+    "category": "Japanese",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 194 9085",
+    "rating": 4.8,
+    "reviewCount": 332,
+    "price": "$$",
+    "isOpen": true,
+    "description": "ساکورا",
+    "tags": [
+      "Japanese",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.173837344364046,
+      "lng": 43.99172357395073
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/56"
+  },
+  {
+    "id": 57,
+    "name": "Divan Rooftop",
+    "nameKu": "سەربانی دیڤان",
+    "category": "Fine Dining",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 337 6043",
+    "rating": 4.3,
+    "reviewCount": 104,
+    "price": "$$",
+    "isOpen": true,
+    "description": "سەربانی دیڤان",
+    "tags": [
+      "Fine Dining",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.21241573300512,
+      "lng": 44.030305837179995
+    },
+    "imageURL": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80",
+    "menuURL": "../index.html#venue/57"
+  },
+  {
+    "id": 58,
+    "name": "Darin Garden",
+    "nameKu": "خانووی دارین",
+    "category": "Kurdish",
+    "neighborhood": "Shoresh",
+    "address": "Shoresh, Erbil / هەولێر",
+    "phone": "+964 750 837 7423",
+    "rating": 4.3,
+    "reviewCount": 60,
+    "price": "$",
+    "isOpen": true,
+    "description": "خانووی دارین",
+    "tags": [
+      "Kurdish",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.207805701857204,
+      "lng": 44.02400803015094
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/58"
+  },
+  {
+    "id": 59,
+    "name": "Papa John's",
+    "nameKu": "پاپا جۆنز",
+    "category": "Pizza",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 334 2842",
+    "rating": 4.1,
+    "reviewCount": 314,
+    "price": "$",
+    "isOpen": true,
+    "description": "پاپا جۆنز",
+    "tags": [
+      "Pizza",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.20434393400282,
+      "lng": 43.99397594471406
+    },
+    "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "menuURL": "../index.html#venue/59"
+  },
+  {
+    "id": 60,
+    "name": "Texas Chicken",
+    "nameKu": "تێکساس چکن",
+    "category": "Fast Food",
+    "neighborhood": "Tablo Mall",
+    "address": "Tablo Mall, Erbil / هەولێر",
+    "phone": "+964 750 919 1508",
+    "rating": 4.4,
+    "reviewCount": 155,
+    "price": "$",
+    "isOpen": true,
+    "description": "تێکساس چکن",
+    "tags": [
+      "Fast Food",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.178265909706234,
+      "lng": 44.012370813249376
+    },
+    "imageURL": "https://images.unsplash.com/photo-1561758033-7e924f619b47?w=800&q=80",
+    "menuURL": "../index.html#venue/60"
+  },
+  {
+    "id": 61,
+    "name": "TGI Fridays",
+    "nameKu": "تی جی ئای فرایدەیس",
+    "category": "American",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 273 6351",
+    "rating": 4.4,
+    "reviewCount": 261,
+    "price": "$$",
+    "isOpen": true,
+    "description": "تی جی ئای فرایدەیس",
+    "tags": [
+      "American",
+      "Erbil",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.200612406363284,
+      "lng": 44.014250821681294
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/61"
+  },
+  {
+    "id": 62,
+    "name": "Costa Coffee",
+    "nameKu": "کۆستا کۆفی",
+    "category": "Coffee",
+    "neighborhood": "Gulan Mall",
+    "address": "Gulan Mall, Erbil / هەولێر",
+    "phone": "+964 750 874 4420",
+    "rating": 4.3,
+    "reviewCount": 196,
+    "price": "$",
+    "isOpen": true,
+    "description": "کۆستا کۆفی",
+    "tags": [
+      "Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.17081220942821,
+      "lng": 43.98721098729521
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/62"
+  },
+  {
+    "id": 63,
+    "name": "Gloria Jean's",
+    "nameKu": "گلۆریا جینز",
+    "category": "Coffee",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 680 3241",
+    "rating": 4.5,
+    "reviewCount": 445,
+    "price": "$",
+    "isOpen": true,
+    "description": "گلۆریا جینز",
+    "tags": [
+      "Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.1705258464023,
+      "lng": 44.00411844117428
+    },
+    "imageURL": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&q=80",
+    "menuURL": "../index.html#venue/63"
+  },
+  {
+    "id": 64,
+    "name": "Starbucks Erbil",
+    "nameKu": "ستارباکس هەولێر",
+    "category": "Coffee",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 277 6705",
+    "rating": 4.2,
+    "reviewCount": 333,
+    "price": "$$",
+    "isOpen": true,
+    "description": "ستارباکس هەولێر",
+    "tags": [
+      "Coffee",
+      "Erbil",
+      "WiFi",
+      "Family"
+    ],
+    "coords": {
+      "lat": 36.18325789173115,
+      "lng": 44.02670967430924
+    },
+    "imageURL": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "menuURL": "../index.html#venue/64"
+  },
+  {
+    "id": 65,
+    "name": "Kebab Hawler",
+    "nameKu": "کەبابی هەولێر",
+    "category": "Kebab",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 325 3190",
+    "rating": 4.8,
+    "reviewCount": 304,
+    "price": "$$",
+    "isOpen": true,
+    "description": "کەبابی هەولێر",
+    "tags": [
+      "Kebab",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.16510107340822,
+      "lng": 44.013749401560005
+    },
+    "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+    "menuURL": "../index.html#venue/65"
+  },
+  {
+    "id": 66,
+    "name": "Tablo Cafe",
+    "nameKu": "کافێی تابلۆ",
+    "category": "Coffee",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 856 2657",
+    "rating": 4.4,
+    "reviewCount": 67,
+    "price": "$$",
+    "isOpen": true,
+    "description": "کافێی تابلۆ",
+    "tags": [
+      "Coffee",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.178337006532786,
+      "lng": 43.99209164530175
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/66"
+  },
+  {
+    "id": 67,
+    "name": "Bazzar Grill",
+    "nameKu": "بڕژاوی بازاڕ",
+    "category": "Steakhouse",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 256 8095",
+    "rating": 4.7,
+    "reviewCount": 187,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "بڕژاوی بازاڕ",
+    "tags": [
+      "Steakhouse",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18072742494999,
+      "lng": 44.02272507980574
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/67"
+  },
+  {
+    "id": 68,
+    "name": "Erbil Citadel View",
+    "nameKu": "دیمەنی قەڵای هەولێر",
+    "category": "Kurdish",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 301 8204",
+    "rating": 5,
+    "reviewCount": 188,
+    "price": "$$",
+    "isOpen": true,
+    "description": "دیمەنی قەڵای هەولێر",
+    "tags": [
+      "Kurdish",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.178938475923566,
+      "lng": 44.029732048851756
+    },
+    "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+    "menuURL": "../index.html#venue/68"
+  },
+  {
+    "id": 69,
+    "name": "Peshawa Pizza",
+    "nameKu": "پیتزای پێشەوا",
+    "category": "Pizza",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 487 2260",
+    "rating": 4.7,
+    "reviewCount": 73,
+    "price": "$$",
+    "isOpen": true,
+    "description": "پیتزای پێشەوا",
+    "tags": [
+      "Pizza",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18591558966412,
+      "lng": 43.99177224957963
+    },
+    "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "menuURL": "../index.html#venue/69"
+  },
+  {
+    "id": 70,
+    "name": "Rostam Burger",
+    "nameKu": "ڕۆستەم بەرگەر",
+    "category": "Fast Food",
+    "neighborhood": "Bazaar",
+    "address": "Bazaar, Erbil / هەولێر",
+    "phone": "+964 750 682 8298",
+    "rating": 4.5,
+    "reviewCount": 60,
+    "price": "$",
+    "isOpen": true,
+    "description": "ڕۆستەم بەرگەر",
+    "tags": [
+      "Fast Food",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.19436262389548,
+      "lng": 43.99534203468903
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/70"
+  },
+  {
+    "id": 71,
+    "name": "Aso Shisha",
+    "nameKu": "ئاسۆ شیشە",
+    "category": "Lounge",
+    "neighborhood": "Italian Village",
+    "address": "Italian Village, Erbil / هەولێر",
+    "phone": "+964 750 270 1135",
+    "rating": 4.2,
+    "reviewCount": 204,
+    "price": "$$",
+    "isOpen": true,
+    "description": "ئاسۆ شیشە",
+    "tags": [
+      "Lounge",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18374968452271,
+      "lng": 44.00778170719526
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/71"
+  },
+  {
+    "id": 72,
+    "name": "Gali Nawanda",
+    "nameKu": "گەلی ناوەندە",
+    "category": "Kurdish",
+    "neighborhood": "Erbil Center",
+    "address": "Erbil Center, Erbil / هەولێر",
+    "phone": "+964 750 723 4445",
+    "rating": 4.4,
+    "reviewCount": 297,
+    "price": "$$",
+    "isOpen": true,
+    "description": "گەلی ناوەندە",
+    "tags": [
+      "Kurdish",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.17297992332161,
+      "lng": 43.9917695423439
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/72"
+  },
+  {
+    "id": 73,
+    "name": "Golden Cup",
+    "nameKu": "گۆڵدن کەپ",
+    "category": "Coffee",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 162 8679",
+    "rating": 4.5,
+    "reviewCount": 94,
+    "price": "$$",
+    "isOpen": true,
+    "description": "گۆڵدن کەپ",
+    "tags": [
+      "Coffee",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.191999240115415,
+      "lng": 44.006853616273546
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/73"
+  },
+  {
+    "id": 74,
+    "name": "Suli Fish",
+    "nameKu": "ماسی سلێمانی",
+    "category": "Seafood",
+    "neighborhood": "Erbil Center",
+    "address": "Erbil Center, Erbil / هەولێر",
+    "phone": "+964 750 965 4509",
+    "rating": 4.2,
+    "reviewCount": 278,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "ماسی سلێمانی",
+    "tags": [
+      "Seafood",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.176701990563195,
+      "lng": 44.03214135818071
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/74"
+  },
+  {
+    "id": 75,
+    "name": "Kurd Sushi",
+    "nameKu": "کورد سوشی",
+    "category": "Japanese",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 871 5718",
+    "rating": 4.4,
+    "reviewCount": 105,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "کورد سوشی",
+    "tags": [
+      "Japanese",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.17160194236595,
+      "lng": 44.03370782224382
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/75"
+  },
+  {
+    "id": 76,
+    "name": "Zozek Cafe",
+    "nameKu": "زۆزک کافێ",
+    "category": "Coffee",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 391 9710",
+    "rating": 4.7,
+    "reviewCount": 208,
+    "price": "$$",
+    "isOpen": true,
+    "description": "زۆزک کافێ",
+    "tags": [
+      "Coffee",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.16821046436666,
+      "lng": 44.007969724515405
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/76"
+  },
+  {
+    "id": 77,
+    "name": "Pasha Sweets",
+    "nameKu": "شیرینی پاشا",
+    "category": "Desserts",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 741 7349",
+    "rating": 4.8,
+    "reviewCount": 150,
+    "price": "$$",
+    "isOpen": true,
+    "description": "شیرینی پاشا",
+    "tags": [
+      "Desserts",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.199473398703944,
+      "lng": 44.01398234980355
+    },
+    "imageURL": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "menuURL": "../index.html#venue/77"
+  },
+  {
+    "id": 78,
+    "name": "Erbil Rotana Dining",
+    "nameKu": "خوانەکانی ڕۆتانا هەولێر",
+    "category": "Fine Dining",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 829 7759",
+    "rating": 4.9,
+    "reviewCount": 53,
+    "price": "$$$$",
+    "isOpen": true,
+    "description": "خوانەکانی ڕۆتانا هەولێر",
+    "tags": [
+      "Fine Dining",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18801978150762,
+      "lng": 44.0086191998852
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/78"
+  },
+  {
+    "id": 79,
+    "name": "Baklava Palace",
+    "nameKu": "کۆشکی باقلەوە",
+    "category": "Desserts",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 702 8618",
+    "rating": 4.7,
+    "reviewCount": 57,
+    "price": "$$",
+    "isOpen": true,
+    "description": "کۆشکی باقلەوە",
+    "tags": [
+      "Desserts",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.193810500390846,
+      "lng": 44.0206127332618
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/79"
+  },
+  {
+    "id": 80,
+    "name": "Shawarma King",
+    "nameKu": "شاورمە کینگ",
+    "category": "Fast Food",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 965 4024",
+    "rating": 4.9,
+    "reviewCount": 181,
+    "price": "$",
+    "isOpen": true,
+    "description": "شاورمە کینگ",
+    "tags": [
+      "Fast Food",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.182089491659916,
+      "lng": 44.002768989047716
+    },
+    "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "menuURL": "../index.html#venue/80"
+  },
+  {
+    "id": 81,
+    "name": "Tandoori Nights",
+    "nameKu": "شەوانی تەندوری",
+    "category": "Indian",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 333 2114",
+    "rating": 4.4,
+    "reviewCount": 290,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "شەوانی تەندوری",
+    "tags": [
+      "Indian",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.17104073662394,
+      "lng": 44.00469834865787
+    },
+    "imageURL": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&q=80",
+    "menuURL": "../index.html#venue/81"
+  },
+  {
+    "id": 82,
+    "name": "Italian Corner",
+    "nameKu": "گۆشەی ئیتاڵی",
+    "category": "Italian",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 367 8242",
+    "rating": 5,
+    "reviewCount": 281,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "گۆشەی ئیتاڵی",
+    "tags": [
+      "Italian",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.17502233312497,
+      "lng": 44.0218628084518
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/82"
+  },
+  {
+    "id": 83,
+    "name": "Ankawa Resto",
+    "nameKu": "چێشتخانەی عەنکاوە",
+    "category": "Christian",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 499 4834",
+    "rating": 4.6,
+    "reviewCount": 127,
+    "price": "$$",
+    "isOpen": true,
+    "description": "چێشتخانەی عەنکاوە",
+    "tags": [
+      "Christian",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.189366548132355,
+      "lng": 44.0017452062991
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/83"
+  },
+  {
+    "id": 84,
+    "name": "Empire Steak",
+    "nameKu": "ئیمپایەر ستەیک",
+    "category": "Steakhouse",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 966 2947",
+    "rating": 4.1,
+    "reviewCount": 115,
+    "price": "$$$$",
+    "isOpen": true,
+    "description": "ئیمپایەر ستەیک",
+    "tags": [
+      "Steakhouse",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.16857633703581,
+      "lng": 43.99096888847883
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/84"
+  },
+  {
+    "id": 85,
+    "name": "Lebanese Village",
+    "nameKu": "گوندی لوبنانی",
+    "category": "Lebanese",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 574 6490",
+    "rating": 4.1,
+    "reviewCount": 198,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "گوندی لوبنانی",
+    "tags": [
+      "Lebanese",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.20190440546656,
+      "lng": 44.01842092561407
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/85"
+  },
+  {
+    "id": 86,
+    "name": "Dream Food",
+    "nameKu": "دریم فود",
+    "category": "Fast Food",
+    "neighborhood": "Italian Village",
+    "address": "Italian Village, Erbil / هەولێر",
+    "phone": "+964 750 516 2636",
+    "rating": 4.8,
+    "reviewCount": 85,
+    "price": "$$",
+    "isOpen": true,
+    "description": "دریم فود",
+    "tags": [
+      "Fast Food",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18992360052999,
+      "lng": 44.01015049402721
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/86"
+  },
+  {
+    "id": 87,
+    "name": "Shari Jwan Cafe",
+    "nameKu": "شاری جوان کافێ",
+    "category": "Coffee",
+    "neighborhood": "Italian Village",
+    "address": "Italian Village, Erbil / هەولێر",
+    "phone": "+964 750 143 7638",
+    "rating": 4.1,
+    "reviewCount": 33,
+    "price": "$$",
+    "isOpen": true,
+    "description": "شاری جوان کافێ",
+    "tags": [
+      "Coffee",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.20596922919741,
+      "lng": 44.007413816394845
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/87"
+  },
+  {
+    "id": 88,
+    "name": "Crispy Crunch",
+    "nameKu": "کریسپی کرنچ",
+    "category": "Fast Food",
+    "neighborhood": "Gulan Street",
+    "address": "Gulan Street, Erbil / هەولێر",
+    "phone": "+964 750 100 1684",
+    "rating": 4.1,
+    "reviewCount": 20,
+    "price": "$",
+    "isOpen": true,
+    "description": "کریسپی کرنچ",
+    "tags": [
+      "Fast Food",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18267898712182,
+      "lng": 44.00658999536038
+    },
+    "imageURL": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=800&q=80",
+    "menuURL": "../index.html#venue/88"
+  },
+  {
+    "id": 89,
+    "name": "Rania Kitchen",
+    "nameKu": "مەتبەخی ڕانیە",
+    "category": "Kurdish",
+    "neighborhood": "Bazaar",
+    "address": "Bazaar, Erbil / هەولێر",
+    "phone": "+964 750 593 7371",
+    "rating": 4.3,
+    "reviewCount": 194,
+    "price": "$$",
+    "isOpen": true,
+    "description": "مەتبەخی ڕانیە",
+    "tags": [
+      "Kurdish",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.20427691645122,
+      "lng": 43.985432347598554
+    },
+    "imageURL": "https://images.unsplash.com/photo-1544025162-d76694265947?w=800&q=80",
+    "menuURL": "../index.html#venue/89"
+  },
+  {
+    "id": 90,
+    "name": "Hawler Falafel",
+    "nameKu": "فەلافل هەولێر",
+    "category": "Fast Food",
+    "neighborhood": "Dream City",
+    "address": "Dream City, Erbil / هەولێر",
+    "phone": "+964 750 196 3043",
+    "rating": 4.4,
+    "reviewCount": 140,
+    "price": "$",
+    "isOpen": true,
+    "description": "فەلافل هەولێر",
+    "tags": [
+      "Fast Food",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.17001977852921,
+      "lng": 43.99767603990324
+    },
+    "imageURL": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=80",
+    "menuURL": "../index.html#venue/90"
+  },
+  {
+    "id": 91,
+    "name": "Sami Park Cafe",
+    "nameKu": "کافێی پارکی سامی",
+    "category": "Coffee",
+    "neighborhood": "Erbil Center",
+    "address": "Erbil Center, Erbil / هەولێر",
+    "phone": "+964 750 183 8069",
+    "rating": 4.5,
+    "reviewCount": 117,
+    "price": "$$",
+    "isOpen": true,
+    "description": "کافێی پارکی سامی",
+    "tags": [
+      "Coffee",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.172022670858794,
+      "lng": 44.00104060764095
+    },
+    "imageURL": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&q=80",
+    "menuURL": "../index.html#venue/91"
+  },
+  {
+    "id": 92,
+    "name": "Korel Lounge",
+    "nameKu": "کۆرەل لاونج",
+    "category": "Lounge",
+    "neighborhood": "Ankawa",
+    "address": "Ankawa, Erbil / هەولێر",
+    "phone": "+964 750 299 6166",
+    "rating": 4.9,
+    "reviewCount": 202,
+    "price": "$$$$",
+    "isOpen": true,
+    "description": "کۆرەل لاونج",
+    "tags": [
+      "Lounge",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.182517476474345,
+      "lng": 44.00127537640284
+    },
+    "imageURL": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?w=800&q=80",
+    "menuURL": "../index.html#venue/92"
+  },
+  {
+    "id": 93,
+    "name": "Family Mall Terrace",
+    "nameKu": "سەربانی فامیلی مۆڵ",
+    "category": "Coffee",
+    "neighborhood": "Empire World",
+    "address": "Empire World, Erbil / هەولێر",
+    "phone": "+964 750 613 7270",
+    "rating": 4.7,
+    "reviewCount": 95,
+    "price": "$$$",
+    "isOpen": true,
+    "description": "سەربانی فامیلی مۆڵ",
+    "tags": [
+      "Coffee",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.20413631620232,
+      "lng": 43.995103889395764
+    },
+    "imageURL": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&q=80",
+    "menuURL": "../index.html#venue/93"
+  },
+  {
+    "id": 94,
+    "name": "Gulan Tower Dining",
+    "nameKu": "خوانی تاوەری گوڵان",
+    "category": "Fine Dining",
+    "neighborhood": "Erbil Center",
+    "address": "Erbil Center, Erbil / هەولێر",
+    "phone": "+964 750 232 3328",
+    "rating": 4.8,
+    "reviewCount": 190,
+    "price": "$$$$",
+    "isOpen": true,
+    "description": "خوانی تاوەری گوڵان",
+    "tags": [
+      "Fine Dining",
+      "Erbil"
+    ],
+    "coords": {
+      "lat": 36.18110364788943,
+      "lng": 44.00947293488117
+    },
+    "imageURL": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&q=80",
+    "menuURL": "../index.html#venue/94"
+  }
+]
